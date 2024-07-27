@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .img{
+            /* margin-left: 340px; */
+            margin-top: -10px;
+            position: relative;
+        }
+        .bg{
+            position: static;
+            background-color: black;
+            margin: -7px;
+            color: white;
+        }
+        .color{
+            background-color: black;
+        }
+        .un{
+            position: absolute;
+            top: 20px;
+            margin-left:60%;
+        }
+        .icon{
+            position: absolute;
+            margin-left: 85%;
+            top:35px;
+        }
+        #lbl{
+            position: absolute;
+            margin-left: 73%;
+            top:35px;
+            border-radius: 10px;
+            border: none;
+            height:4vh;
+        }
+        .title{
+            /* position: relative;
+            top:-190px; */
+            color:rgb(120, 9, 9);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .p{
+            
+            color: rgb(253, 253, 253);
+            font-size: 15px;
+            /* margin-left: 80px; */
+            text-align: center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+        .rm{
+            display: flex;
+            column-gap: 15px;
+            /* position: relative;
+            top:-180px; */
+        }
+        .mob{
+            display: flex;
+            column-gap: 25px;
+            
+        }
+        .mob img:hover{
+            transition-duration: 0.5s;
+           transform: scale(1.2); 
+        }
+        .rmm{
+            display: flex;
+            column-gap: 15px;
+        }
+        a{
+            text-decoration: none;
+            color: wheat;
+        }
+        /* header{
+            position: fixed;
+            top: -10px;
+        } */
+        /* main img:hover{
+            transition-duration: -0.3s;
+            width: 215px;
+             height: 135px;
+            /* margin-right:10px ;  */
+
+            .rm img:hover{
+            transition-duration: 0.5s;
+           transform: scale(1.1); 
+        }
+        
+        nav{
+            position: relative;
+            top:5px;
+            display: flex;
+           
+            justify-content: space-evenly;
+            background-color: black;
+            
+        }
+        ul{
+            list-style-type:none;
+            color: rgb(154, 165, 165);
+           
+        }
+        li{
+            cursor: pointer;
+           
+        }
+        .home h4:hover{
+            color:white;
+            transition-duration: 0.8s;
+            transform: scale(1.1); 
+
+        }
+        .home{
+            
+            display: flex;
+            color: rgb(182, 165, 165);
+            column-gap: 20px;
+        }
+        #first{
+            border:2px solid gray;
+            padding: 4px;
+            border-radius: 20px;
+            cursor: pointer;
+            
+        }
+        #sec{
+            border:2px solid gray;
+            padding: 4px;
+            border-radius: 20px;
+            width: 65px;
+            text-align: center;
+            cursor: pointer;
+            
+        }
+        #third{
+            border:2px solid gray;
+            padding: 4px;
+            border-radius: 20px;
+            width: 65px;
+            text-align: center;
+            cursor: pointer;
+            
+        }
+        .one{
+            margin-left: -190px;
+        }
+        .two{
+            margin-top: 0px;
+        }
+        .three{
+            margin-left: -115px;
+        }
+        .four{
+            margin-top: 35px;
+        }
+        .five{
+            margin-left: -135px;
+            
+        }
+        .seven{
+            margin-left: -160px;
+        }
+        video{
+            position: relative;
+            top: 0px;
+            opacity: .4;
+        }
+        .spider{
+            position: absolute;
+            color: white;
+            font-size: 15px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            top:540px;
+        }
+        .spider img{
+            height: 80px;
+           
+        }
+        .spider h5{
+            color: gray;
+            font-size: 15px;
+        }
+        button{
+            font-size: 15px;
+           border-radius: 6px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        button:hover{
+            background-color: rgb(124, 117, 117);
+        }
+        .rmm{
+            animation: mymove 10s infinite;
+        }
+        @keyframes mymove {
+  from {
+transform: translateX(-180px);
+  }
+  to {
+transform: translateX(1500px);
+  }
+}
+        
+    </style>
+</head>
+<body class="color">
+    <header>
+        <header class="bg">
+            <img src="https://www.underconsideration.com/brandnew/archives/netflix_app_icon_with_logo.jpg" height="80px" width="180px">
+        
+            <h4 class="un">UNLIMITED TV SHOWS AND MOVIES</h4>
+        <label for="search"></label>
+        <input type="search" id="lbl" placeholder="Search"></input>
+            <img class="icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8IGrfeSvI4s0XvRAkYxIoPYJS-oTEY0RGSw&s"height="30px" width="30px">  
+    </header>
+    </header>
+    <main>
+        <div class="home">
+        <h4 id="first">TV Shows</h4>
+        <h4 id="sec">Movies</h4>
+        <h4 id="third">Kids</h4>
+        </div>
+        <div class="img">
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/GPitD0-mkYA?si=ZQl9E7ylKpqB2q9T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+            
+<video width="1500" height="850" autoplay loop>
+    <!-- <h1>DOWNLOAD</h1> -->
+    <source src="./spider man across trailer.mp4" type="video/mp4">
+    
+  </video>
+
+</div>
+<div class="spider">
+    <img src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABZJ-3sfIjAPjAfD9C1CYN-7ZajnMPtQtwanSLVRhcaw7bpRPSHCTOvSpAxxcjfZCsilXAG5lq3YXqSQJZmzgzVGGahKaTO3CtheXSFgDCD4A.png?r=11a">
+    <h2>Spider-Man: Into the Spider-Verse</h2>
+<h5>2018 | Maturity Rating:U/A 13+ | 1h 56m | Action</h4>
+<p>After being bitten by a radioactive spider, Brooklyn teen<br> Miles Morales gets a crash course in web-slinging from <br>his alternate-dimension counterparts.</p>
+<h4>Starring:Shameik Moore, Jake Johnson, Hailee Steinfeld</h4>
+<button>Play</button>
+<button>+My List</button>
+</div>
+
+<h3 class="title">Mobile Games</h3>
+<div class="mob" id="Mobile"> 
+    
+    <div >
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK638wk1fWECBFDGVAmSCk7RNuxpBVKzWDLw&s" height="200px" width="190px">
+        <p class="p">Cozy Grove:Camp Spirit</p></a>
+    </div>
+    <div>
+        <img src="https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQQ5VYeX1d3hzzGChsluqZ31P5-sDI4qlqo5B44lylMoYiqQJm5cZe3u5UXs0yU7QxO7pG27eTeVWruXv3Pn8Mv5XG55Lw8gFfF_nmw4eKdCC2zpUKDHtNAGvju-vI3OAllAW21kle6o79LMBYPnancSL.jpg?r=8b9"  height="200px" width="190px">
+        <p class="p">Valiant Hearts</p>
+    </div>
+    <div>
+        <img src="https://m.media-amazon.com/images/M/MV5BMjAyY2UxNTUtMTNhMS00NzgwLWE0NGItYmZmZmUzNjA1NTcyXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg"  height="200px" width="190px">
+        <p class="p">Into The Dead 2-Unleashed</p>
+    </div>
+    <div>
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjoO1km80zC4jVgMklnbsVOHpsw21AiMxi8S1JgoSzzZHfooVL4H11fReC9-zdcapT9Ll2hjcooR44P1HEcSBzQ64WrGNdkT8MiBWVui179oqJGLlAYZMG4MOG1_Gop776nySNO3_1p_P8xv7ckm6mdMSEofldvk8i7NgqkSEBk17litdZwA/s16000/spongebob-get-cooking-app-icon.webp"  height="200px" width="190px">
+        <p class="p">SpongeBob-Get Cooking</p>
+    </div>
+    <div>
+        <img src="https://images.squarespace-cdn.com/content/v1/5bfa159385ede160a0faea5f/11f95f3b-5ef0-46e9-8c77-a2666ecd1b55/Fkma6uzWQAwFsfB.jpg"  height="200px" width="190px">
+        <p class="p">The Case Of The Golden Idol</p>
+    </div>
+    <div>
+        <img src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1zuc.jpg"  height="200px" width="190px">
+        <p class="p">Townsman-A Kingdom Rebuilt</p>
+    </div>
+    <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAfvT-eKH0GbAgmiBbGp0vxI7srViuSDXVDMKUuFd0L607yoTBMBS21LrnrGRwh4YT1Bw&usqp=CAU"  height="200px" width="190px">
+        <p class="p">Cats & Soups</p>
+    </div>
+</main>
+</div>
+        </div>
+        <h3 class="title">Your Next Watch</h3>
+        <div class="rm"> 
+            
+            <div>
+                <a href="./spidy.html"> <img src="https://th.bing.com/th/id/OIP.GdQXcnGCqKLkuWXlc9zn6gHaEo?w=290&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7" height="130px" width="210px">
+                <p class="p">Spiderman Movies</p></a>
+            </div>
+            <div>
+                <img src="https://mir-s3-cdn-cf.behance.net/projects/404/c50c5f179965559.Y3JvcCwxNzc1LDEzODgsNDI2LDQ3OA.jpg"  height="130px" width="210px">
+                <p class="p">MahaRaja</p>
+            </div>
+            <div>
+                <img src="https://th.bing.com/th/id/OIP.PqzIev7ezt6mYtAfTvT4aQHaD4?rs=1&pid=ImgDetMain"  height="130px" width="210px">
+                <p class="p">Crew</p>
+            </div>
+            <div>
+                <img src="https://img-19.ccm.net/QhjZmSUOuFxCXqwizM2-4ihgdJA=/450x/smart/e190266eee434da281e4daed20eadb53/ccmcms-enccm/39470147.png"  height="130px" width="210px">
+                <p class="p">Alice in Borderland</p>
+            </div>
+            <div>
+                <img src="https://nextluxury.com/wp-content/uploads/movies-like-escape-room.png"  height="130px" width="210px">
+                <p class="p">The Escape Room</p>
+            </div>
+            <div>
+                <img src="https://th.bing.com/th/id/OIP.yPrCwGgNWDRKjPoCkBtougHaEl?w=700&h=433&rs=1&pid=ImgDetMain"  height="130px" width="210px">
+                <p class="p">The Witcher</p>
+            </div>
+            <div>
+                <img src="https://www.febspot.com/contents/videos_screenshots/2152000/2152110/320x180/1.jpg"  height="130px" width="210px">
+                <p class="p">Dead Boy Detectives</p>
+            </div>
+        
+        </div>
+        <h3 class="title">Korean Dramas</h3>
+        <div class="rm"> 
+            
+            <div>
+                 <img src="https://th.bing.com/th/id/OIP.LP1XUmG2hhrzmFIRA92w3wHaEK?rs=1&pid=ImgDetMain" height="130px" width="210px">
+                <p class="p">True Beauty</p></a>
+            </div>
+            <div>
+                <img src="https://besttoppers.com/wp-content/uploads/2020/08/crash-landing-on-you-season-2.jpg "  height="130px" width="210px">
+                <p class="p">Crash Landing On You</p>
+            </div>
+            <div>
+                <img src="https://www.wheninmanila.com/wp-content/uploads/2017/06/kuya-kim-goblin.jpg"  height="130px" width="210px">
+                <p class="p">Goblin</p>
+            </div>
+            <div>
+                <img src="https://th.bing.com/th/id/OIP.QgrXIEQMNjUf_jeHbXYW8gHaEK?w=512&h=288&rs=1&pid=ImgDetMain"  height="130px" width="210px">
+                <p class="p">Twenty Five-Twenty One</p>
+            </div>
+            <div>
+                <img src="https://th.bing.com/th/id/OIP.eqcKULIWHy2MhaBjyqFXtQAAAA?rs=1&pid=ImgDetMain"  height="130px" width="210px">
+                <p class="p">Lovely Runner</p>
+            </div>
+            <div>
+                <img src="https://th.bing.com/th/id/OIP.bQFVtjSCLomZEu2uTC5_fwAAAA?rs=1&pid=ImgDetMain"  height="130px" width="210px">
+                <p class="p">Twinkling Watermelon</p>
+            </div>
+            <div>
+                <img src="https://th.bing.com/th/id/OIP.7pByBoXSieWWYoBfKURlQwAAAA?rs=1&pid=ImgDetMain"  height="130px" width="210px">
+                <p class="p">Queen Of Tears</p>
+            </div>
+        
+        </div>
+        <h3 class="title">Exciting Movies</h3>
+        <div class="rm"> 
+            
+            <div>
+                 <img src="https://th.bing.com/th/id/OIP.7KChCBcccpvQlW3VWeC0nwAAAA?rs=1&pid=ImgDetMain" height="130px" width="210px">
+                <p class="p">Star</p></a>
+            </div>
+            <div>
+                <img src="https://i.ytimg.com/vi/DNoyJPD8zss/maxresdefault.jpg"  height="130px" width="210px">
+                <p class="p">Laapatta Ladies</p>
+            </div>
+            <div>
+                <img src="https://www.radiocity.in/images/uploads/cover-heeramandi_d.png"  height="130px" width="210px">
+                <p class="p">Heeramandi</p>
+            </div>
+            <div>
+                <img src="https://metadata-static.plex.tv/2/gracenote/2fbce2f77e7353354713b33b5e9c69fb.jpg"  height="130px" width="210px">
+                <p class="p">Mission Impossible</p>
+            </div>
+            <div>
+                <img src="https://i.ytimg.com/vi/zPaK694aeUs/maxresdefault.jpg"  height="130px" width="210px">
+                <p class="p">Invasion</p>
+            </div>
+            <div>
+                <img src="https://khandishnetwork.com/wp-content/uploads/2021/04/Joker-receivers-Software.jpg"  height="130px" width="210px">
+                <p class="p">Joker 2</p>
+            </div>
+            <div>
+                <img src="https://droidjournal.com/wp-content/uploads/2020/07/maxresdefault-5-768x432.jpg"  height="130px" width="210px">
+                <p class="p">A Quiet Place 2</p>
+            </div>
+        
+        </div>
+        <h3 class="title">International TV Series</h3>
+        <div class="rm"> 
+            
+            <div>
+                 <img src="https://th.bing.com/th/id/OIP.roV_trS85P80eUYQ3BdJOQHaEK?rs=1&pid=ImgDetMain" height="130px" width="210px">
+                <p class="p">Stranger Things</p></a>
+            </div>
+            <div>
+                <img src="https://th.bing.com/th/id/OIP.CFHUkOqpG0ukU0UGST2pbwHaEK?w=512&h=288&rs=1&pid=ImgDetMain"  height="130px" width="210px">
+                <p class="p">Wednesday</p>
+            </div>
+            <div>
+                <img src="https://i.pinimg.com/originals/07/f0/e7/07f0e7ddaa9b02b54e85cdd1e1e5c677.jpg"  height="130px" width="210px">
+                <p class="p">Harry Potter</p>
+            </div>
+            <div>
+                <img src="https://www.geektown.co.uk/wp-content/uploads/2021/04/brid-735x413.jpg"  height="130px" width="210px">
+                <p class="p">Bridgerton</p>
+            </div>
+            <div>
+                <img src="https://th.bing.com/th/id/OIP.VDc_1hdwHEnEft6z_WCIogAAAA?w=474&h=237&rs=1&pid=ImgDetMain"  height="130px" width="210px">
+                <p class="p">Dark</p>
+            </div>
+            <div>
+                <img src="https://th.bing.com/th/id/OIP.PI5jh8PBQ5RJZ974cDZSNgAAAA?rs=1&pid=ImgDetMain"  height="130px" width="210px">
+                <p class="p">Elite</p>
+            </div>
+            <div>
+                <img src="https://i.ytimg.com/vi/2tCYSHtd2EM/maxresdefault.jpg"  height="130px" width="210px">
+                <p class="p">Fall Out</p>
+            </div>
+            </div>
+        <!-- top 10 -->
+        
+
+
+        <h3 class="title">Top 4 Movies In India Today</h3>
+        <div class="rmm"> 
+            
+            <div>
+                 <img src="https://cdn.wallpapersafari.com/41/54/ewGUKL.png" height="330px" width="400px">
+                 
+                
+            </div>
+            <div class="one">
+                <img src="https://i.mydramalist.com/wPbjb_4f.jpg"  height="280px" width="200px">
+                
+            </div>
+            <div class="two">
+                <img src="https://wallpapers.com/images/hd/number-2-minimalist-black-and-white-1tcoozzw07qoqyn8.jpg"  height="350px" width="300px">
+                
+            </div>
+            <div class="three">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOc7zgNleQYXEQjKJ5BySZtrr1VE8L_T8NCA&s"  height="320px" width="200px">
+                
+            </div>
+            <div class="four">
+                <img src="https://freerangestock.com/sample/134923/number-3--bw.jpg"  height="250px" width="300px">
+                
+            </div>
+            <div class="five">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/04685e3c-914c-420e-a9d8-994a437fad2f/dhh6wc7-6bc1b6c1-7ff2-4ecd-9d30-570a83b49f9e.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA0Njg1ZTNjLTkxNGMtNDIwZS1hOWQ4LTk5NGE0MzdmYWQyZlwvZGhoNndjNy02YmMxYjZjMS03ZmYyLTRlY2QtOWQzMC01NzBhODNiNDlmOWUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.DD6KY3KdQ2qa4k-2C6XZ2UJbgdc6NDTdeMJRYyo0A6M"  height="280px" width="210px">
+                
+            </div>
+            <div class="six">
+                <img src="https://ak.picdn.net/shutterstock/videos/377386/thumb/3.jpg?i10c=img.resize(height:240)"  height="330px" width="340px">
+               
+            </div>
+            <div class="seven">
+                <img src="https://m.media-amazon.com/images/M/MV5BN2Q2ZmM3NzAtZDVkZi00NTcxLTgzOWItZTRkZjAwYjJmNzI3XkEyXkFqcGdeQXVyMTY3ODkyNDkz._V1_.jpg" height="280px" width="200">
+                    
+                   
+                </div>
+               
+            </div>
+            </div>
+        <h3 class="title">Horror Movies</h3>
+        <div class="rm"> 
+            
+            <div>
+                 <img src="https://www.infamoushorror.com/wp-content/uploads/2023/03/img_0301.png" height="130px" width="210px">
+                <p class="p">Smile</p></a>
+            </div>
+            <div>
+                <img src="https://th.bing.com/th/id/OIP.AsdWY6xEtx4uyo044or4_QHaDt?w=999&h=500&rs=1&pid=ImgDetMain"  height="130px" width="210px">
+                <p class="p">Talk To Me</p>
+            </div>
+            <div>
+                <img src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/6218024e63bc44ad18b1701b61271420b7a984121570ac5d25174cc9a0f84dbb._UY500_UX667_RI_V_TTW_.jpg"  height="130px" width="210px">
+                <p class="p">Anabelle</p>
+            </div>
+            <div>
+                <img src="https://4.bp.blogspot.com/-eQW5pptPKk8/W1nr_2Y8qqI/AAAAAAAAwcM/hO1b2hDSzJYdoXy0BDFVpGG5lR3SwC28gCLcBGAs/w1200-h630-p-k-no-nu/The-Nun-banner2.jpg"  height="130px" width="210px">
+                <p class="p">Nun</p>
+            </div>
+            <div>
+                <img src="https://1.bp.blogspot.com/-DnMabN1yI78/XWIGVfFKNEI/AAAAAAAAC-M/X1PQYqxPQd0yZwQ9SJQSmzKRo-mFpaj9ACLcBGAs/w1200-h630-p-k-no-nu/maxresdefault%2B%25281%2529.jpg"  height="130px" width="210px">
+                <p class="p">Ring</p>
+            </div>
+            <div>
+                <img src="https://media.movieassets.com/static/images/items/movies/backdrops/1280/80/the-conjuring-b24a2d90e6f433d2a2522e4fb2eae777.jpg"  height="130px" width="210px">
+                <p class="p">Conjuring</p>
+            </div>
+            <div>
+                <img src="https://th.bing.com/th/id/OIP.PrZ1QBD9Dzkti3CJ3PQ0sQHaEL?w=638&h=360&rs=1&pid=ImgDetMain"  height="130px" width="210px">
+                <p class="p">The House's Next Door</p>
+            </div>
+        
+        </div>
+
+        <h3 class="title">Crime Thrillers</h3>
+        <div class="rm"> 
+            
+            <div>
+                 <img src="https://imgk.timesnownews.com/media/ratchasan.jpg" height="130px" width="210px">
+                <p class="p">Raatchasan</p></a>
+            </div>
+            <div>
+                <img src="https://static.tnn.in/thumb/msid-105962023,thumbsize-63338,width-1280,height-720,resizemode-75/105962023.jpg"  height="130px" width="210px">
+                <p class="p">Curry & Cyanide</p>
+            </div>
+            <div>
+                <img src="https://devopsvault.io/wp-content/uploads/2023/12/How-Where-to-Watch-It-Movie-Online-in-2023-750x375.jpg"  height="130px" width="210px">
+                <p class="p">It</p>
+            </div>
+            <div>
+                <img src="https://otakukart.com/wp-content/uploads/2022/10/The-Call-2020.jpg"  height="130px" width="210px">
+                <p class="p">The call</p>
+            </div>
+            <div>
+                <img src="https://www.southcolors.in/wp-content/uploads/2018/07/samantha-akkineni-u-turn-first-look-poster-southcolors.jpg"  height="130px" width="210px">
+                <p class="p">U Turn</p>
+            </div>
+            <div>
+                <img src="https://metadata-static.plex.tv/7/gracenote/7598cabf2b0f995d4895b17107437a43.jpg"  height="130px" width="210px">
+                <p class="p">Vadhandhi</p>
+            </div>
+            <div>
+                <img src="https://www.moviesavailableon.com/Images/movies/porthozhil_vig_raja_dte.jpg"  height="130px" width="210px">
+                <p class="p">Por Thozhil</p>
+            </div>
+        
+        </div>
+
+        <h3 class="title">Cartoons</h3>
+        <div class="rm"> 
+            
+            <div>
+                 <img src="https://simkl.in/fanart/11/11351852ba3dbd6581_w.jpg" height="130px" width="210px">
+                <p class="p">Doraemon-Peko and The Exploration</p>
+            </div>
+            <div>
+                <img src="https://fictionhorizon.com/wp-content/uploads/2022/04/Frozen.jpg"  height="130px" width="210px">
+                <p class="p">Frozen</p>
+            </div>
+            <div>
+                <img src="https://occ-0-3011-116.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQ6Y0DKnWi8QrpX7i32t4yCIjDbP5AwBDhoklIKb8xBwSaj6EnFCd9AuUhkMa3EIUefW21IO-G8DaSQth3tpj21Jllu8.jpg?r=6ee"  height="130px" width="210px">
+                <p class="p">The Shinchan-The storm called my Bride</p>
+            </div>
+            <div>
+                <img src="https://th.bing.com/th/id/OIP.PEzxStLldPME7OWN2EzD5gHaEK?rs=1&pid=ImgDetMain"  height="130px" width="210px">
+                <p class="p">Hattori - Home Town</p>
+            </div>
+            <div>
+                <img src="https://uploads.tickettailor.com/c_fill,h_627,w_1200/v1/production/userfiles/kemempfimkhlpmaz94ha.jpg"  height="130px" width="210px">
+                <p class="p">Finding Nemo</p>
+            </div>
+            <div>
+                <img src="https://i.ytimg.com/vi/IdSyJ_Ke9AU/maxresdefault.jpg"  height="130px" width="210px">
+                <p class="p">Tangled</p>
+            </div>
+            <div>
+                <img src="https://th.bing.com/th/id/OIP.UpIAhvwtodH5Im_49AlZ9wAAAA?rs=1&pid=ImgDetMain"  height="130px" width="210px">
+                <p class="p">Tom and Jerry-The Cowboy Up</p>
+            </div>
+        
+        </div>
+
+        <h3 class="title">Anime</h3>
+        <div class="rm"> 
+            
+            <div>
+                 <img src="https://th.bing.com/th/id/OIP.KXUSpHa85YkfI98x2taKAwAAAA?rs=1&pid=ImgDetMain" height="130px" width="210px">
+                <p class="p">Demon Slayer</p>
+
+                </p></a>
+            </div>
+            <div>
+                <img src="https://m.media-amazon.com/images/S/aplus-media/sota/2c29e674-c5da-40c1-b813-a326cb78f341.__CR0,0,970,600_PT0_SX970_V1___.jpg"  height="130px" width="210px">
+                <p class="p">Five Centimeters Per Second</p>
+            </div>
+            <div>
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/Video113/v4/d5/88/45/d58845a7-de03-17ff-1b56-3ffc2701fc9d/1248266107-WW-AMP_SF.lsr/1200x675.jpg"  height="130px" width="210px">
+                <p class="p">A Silent Voice</p>
+            </div>
+            <div>
+                <img src="https://m.media-amazon.com/images/S/pv-target-images/4be208be2bfecbb7a7002f4025178151dba069e29f6e5de011a1c59672c92b89._UR1920,1080_BR-6_SX720_FMjpg_.jpg"  height="130px" width="210px">
+                <p class="p">Your Name</p>
+            </div>
+            <div>
+                <img src="https://picfiles.alphacoders.com/644/644323.jpeg"  height="130px" width="210px">
+                <p class="p">The Garden Of Words</p>
+            </div>
+            <div>
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOA8fI1FCYw-dcmX32CXn5j4vGteLPT0aIJ2LUzzI5-a9OzNkZ4b-b3SAJ0mIPpAm9GQVIViUCEXBT3bGwOtoB0pNHINN-AQ0G4fg0OdS_ko88tXPW7tycMT5A-_Y9Q9hJ602TYY4Z2Uk/w1200-h630-p-k-no-nu/bd58e334859674474d8615ee58851aab.jpg"  height="130px" width="210px">
+                <p class="p">Hello World</p>
+            </div>
+            <div>
+                <img src="https://cdn.rantent.com/wp-content/uploads/2023/01/paprika-2006.webp"  height="130px" width="210px">
+                <p class="p">Paprika</p>
+            </div>
+        
+        </div>
+    </main>
+    <footer class="foot">
+           
+        <nav>
+            <div>
+        <ul>
+            <li>FAQ</li>
+            <li>Investor Relations</li>
+            <li>Privacy</li>
+            <li>Speed Test</li>
+        </ul>
+    </div>
+        <ul>
+            <li>Help center</li>
+            <li>Jobs</li>
+            <li>Cookies Preferances</li>
+            <li>Legal Notices</li>
+        </ul>
+        <ul>
+            <li>Account</li>
+            <li>Ways to watch</li>
+            <li>Only on netflix</li>
+            <li>Corporation Information</li>
+        </ul>
+    <ul>
+        <li>Media center</li>
+        <li>Terms of use</li>
+        <li>Contact us</li>
+        
+    </ul>
+</nav>
+    </footer>
+</body>
+</html>

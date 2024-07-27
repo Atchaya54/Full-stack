@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg{
+            position: static;
+            background-color: black;
+            margin: -7px;
+            color: white;
+        }
+        .color{
+            background-color: rgb(36, 33, 33);
+        }
+        .un{
+            position: absolute;
+            top: 20px;
+            margin-left:60%;
+        }
+        .icon{
+            position: absolute;
+            margin-left: 85%;
+            top:35px;
+        }
+        #lbl{
+            position: absolute;
+            margin-left: 73%;
+            top:35px;
+            border-radius: 10px;
+            border: none;
+            height:4vh;
+        }
+        .tit{
+            position: absolute;
+            color: white;
+           top: 120px;
+           font-size: 40px; 
+           font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           
+        }
+        .fig1{
+            position: absolute;
+            top: 250px;
+            margin-left: 8%;
+            /* transform: scale(1.5); */
+           /* transform: scale(1.5); */
+          
+        }
+        .para{
+            margin-left: 14%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            font-size: 17px;
+        }
+        .fig2{
+            position: absolute;
+            top: 250px;
+            margin-left: 28%;
+        }
+        .para1{
+            margin-left: 3%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            font-size: 17px;
+        }
+        .fig3{
+            position: absolute;
+            top: 250px;
+            margin-left: 48%;
+        }
+        .para2{
+            margin-left: 9%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            font-size: 17px;
+        }
+        .fig4{
+            position: absolute;
+            top: 250px;
+            margin-left: 68%;
+        }
+        .para3{
+            margin-left: 15%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            font-size: 17px;
+        }
+        .fig5{
+            position: absolute;
+            top: 550px;
+            margin-left: 8%;
+        }
+        .para4{
+            margin-left: 15%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            font-size: 17px;
+        }
+        .fig6{
+            position: absolute;
+            top: 550px;
+            margin-left: 28%;
+        }
+        .para5{
+            margin-left: 8%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            font-size: 17px;
+        }
+        .fig7{
+            position: absolute;
+            top: 550px;
+            margin-left: 48%;
+        }
+        .para6{
+            margin-left: 9%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            font-size: 17px;
+        }
+        .fig8{
+            position: absolute;
+            top: 550px;
+            margin-left: 68%;
+        }
+        .para7{
+            margin-left: 15%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            font-size: 17px;
+        }
+        .fig9{
+            position: absolute;
+            top: 850px;
+            margin-left: 8%;
+        }
+        .para8{
+            margin-left: 14%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            font-size: 17px;
+        }
+        .fig10{
+            position: absolute;
+            top: 850px;
+            margin-left: 28%;
+        }
+        .para9{
+           margin-left: 30%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            font-size: 17px;
+        }
+        .fig11{
+            position: absolute;
+            top: 850px;
+            margin-left: 48%;
+        }
+        .para10{
+            margin-left: 35%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            font-size: 17px;
+        }
+        .fig12{
+            position: absolute;
+            top: 850px;
+            margin-left: 68%;
+        }
+        .para11{
+            margin-left: 35%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            font-size: 17px;
+        }
+        nav{
+            position: relative;
+            top:1100px;
+            display: flex;
+            padding: 20px;
+            justify-content: space-evenly;
+            background-color: black;
+            margin: -7px;
+        }
+        ul{
+            list-style-type:none;
+            color: rgb(154, 165, 165);
+           
+        }
+        li{
+            cursor: pointer;
+           
+        }
+        .fig1:hover{
+            transition: margin-right 8s ease-in-out;
+        } 
+        main img:hover{
+            transition-duration: -0.3s;
+            width: 305px;
+             height: 205px;
+            /* margin-right:10px ;  */
+        }
+    </style>
+</head>
+<body class="color">
+    <header class="bg">
+        <img src="https://www.underconsideration.com/brandnew/archives/netflix_app_icon_with_logo.jpg" height="80px" width="180px">
+    
+        <h4 class="un">UNLIMITED TV SHOWS AND MOVIES</h4>
+    <label for="search"></label>
+    <input type="search" id="lbl" placeholder="Search"></input>
+        <img class="icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8IGrfeSvI4s0XvRAkYxIoPYJS-oTEY0RGSw&s"height="30px" width="30px">  
+</header>
+    <main>
+        <h2 class="tit">SPIDER MAN MOVIES</h2>
+
+        <div class="fig1">
+   
+            <img src="https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABfRoxMiof60EYW4IQEExm_T_VzWnKi1jiJ9ZHbhFRv6U1ugdRevoXbjubCw3FBETdyCzpK6bGUR1MNNZWgzpWvFgwBj1vD4e8kdMdSBsB9g506Z1h_iIED9usCngtmhrsJsoPxO0aLWjyxuSi3hPOnlYxEFbMqp85jE.jpg?r=8d0" height="200px" width="300px">
+           <p class="para">Spiderman-No Way Home</p>
+           </div>
+
+           <div class="fig2">
+   <img src="https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABQx78MTZlUsEn2AiGrEJh4OKmJZ1FNf_cST-Ue7Lpz8IGWPL9m15DIrBKVYMDDRZelgWVavGuY9gSH1G4oNGe0WWniPqdXi5U2c.jpg?r=b2e" height="200px" width="300px">
+           <p class="para1">Spider-Man: No Way Home (Extended Version)</p>
+           </div>
+
+           <div class="fig3">
+   <img src="https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABbrQQ-8_JJvEwday6QZwOmuNxOd9IblDmjkck7Lrn5DlLxZCVgLiuBJ1acnPaZ3BG9DVTpAM3GpG2E8ji4paCP_sIAyQ3-3Rp9M.jpg?r=a87" height="200px" width="300px">
+           <p class="para2">Venom: Let There Be Carnage</p>
+           </div>
+           
+           <div class="fig4">
+   <img src="https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABZ9XBfzxlAyyV89QfDwQ8DJFlJGUcvz8MgXqfifzVmB_c0O6rSIfpGFnUDbcikXF27LhULDfA7BfHE1MLoHkgVYo_Rr9iNoGJEA.jpg?r=98a" height="200px" width="300px">
+           <p class="para3">Spiderman-Homecoming</p>
+           </div>
+          
+           <div class="fig5">
+   <img src="https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABYENvntQ92KRfD3dKPoYf6OaF99T_GvAso2fFdjBpHna-mt8oaU3VLmmC4fOKY2TtR3pf995BmyeW2Rbpgwshr7fC-8FgTuoDzw.jpg?r=537" height="200px" width="300px">
+           <p class="para4">Spiderman-Far From Home</p>
+           </div>
+          
+           <div class="fig6">
+   <img src="https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABaWGaqfLsRpen65TOkVipogwOrtKKy4Lkar8bGfAJVEu_QddM649tbrSaVAOn7r_kIUweHFb9Gc8qNEloEb6NOaqn2DN9NcwJIk.jpg?r=f8a" height="200px" width="300px">
+           <p class="para5">Spiderman-Across The Spider-verse</p>
+           </div>
+           
+           <div class="fig7">
+   <img src="https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABWHgaP97k674xZgDxTIIA7NdU_epYrSPLshm2PP3o3R5CHXHCqsFBo-bP3Endn-E6bhh44wf0ZGRaJ2e2hwTh_mAGjjFLlSdI7U.jpg?r=969" height="200px" width="300px">
+           <p class="para6">Spiderman-Into The Spider-verse</p>
+           </div>
+
+           <div class="fig8">
+          <a href="./amazing.html"><img src="https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABfKJH5r9vYAnElOKpGCMYF79a8HKCYw5s9ZSq2zU7x4XsQ0ymSGpilfFAXDhZITFmlke_vQd8i7DliSS4U_lqQ5yp8CNwsGNzbM.jpg?r=632" height="200px" width="300px"></a>
+                    <p class="para7">The Amazing Spiderman 1</p>
+                    </div>
+
+         <div class="fig9">
+           <img src="https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABYcE7myUF6OaILuzBSsSUmtUsjFybfon01ZXerKT4tnuQzoqPd5uFQe3pEu63GA-u4ycy10sspuXSSwSayEP5bPzwQzG8TE2FFI.jpg?r=e56" height="200px" width="300px">
+         <p class="para8">The Amazing Spiderman 2</p>
+                 </div>
+
+
+          <div class="fig10">
+             <img src="https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABV26uz4JTfP9VwZ1nHV2FUTaf4cYVlfxDjMrKTV9b-7WmUj30VGQJKFHItfK7rTiE4AEygZ1_Q0wWl3isIgmeIDn3ZsmeNmYfck.jpg?r=426" height="200px" width="300px">                      
+               <p class="para9">Spiderman 1</p>
+                      </div>
+
+          <div class="fig11">
+                 <img src="https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABS2SMt-tbXmrX4kt0f_GB_U0n5hbTtxVQwW0Pz8Ya0_-xrct9JUsHgMluC4LYXwwRtIIHE5Yr1in4ypqVmStVR1gfL6ZVyahTbw.jpg?r=764" height="200px" width="300px">
+                 <p class="para10"> Spiderman 2</p>
+                  </div>
+
+           <div class="fig12">
+                 <img src="https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABd8ohpFOSeES_6FiN5FS0r7GUwc40VUHOCD4oX5TQvH0Wt6sQSzF07xL-xRDyA_dVWyZJErJ0Cbo5YstPfdkBEgsCUvnfOoJKPY.jpg?r=94a" height="200px" width="300px">
+             <p class="para11">Spiderman 3</p>
+                </div>                                             </div>
+           
+    </main>
+    <footer class="foot">
+        <nav>
+            <div>
+        <ul>
+            <li>FAQ</li>
+            <li>Investor Relations</li>
+            <li>Privacy</li>
+            <li>Speed Test</li>
+        </ul>
+    </div>
+        <ul>
+            <li>Help center</li>
+            <li>Jobs</li>
+            <li>Cookies Preferances</li>
+            <li>Legal Notices</li>
+        </ul>
+        <ul>
+            <li>Account</li>
+            <li>Ways to watch</li>
+            <li>Only on netflix</li>
+            <li>Corporation Information</li>
+        </ul>
+    <ul>
+        <li>Media center</li>
+        <li>Terms of use</li>
+        <li>Contact us</li>
+        
+    </ul>
+</nav>
+    </footer>
+</body>
+</html>
